@@ -6,4 +6,4 @@ permalink: /surveys/
 
 This page links to our active surveys. Replace the URL below when ready.
 
-{% include button url="https://example.com/survey" text="Take the survey" %}
+<a href="https://example.com/survey" class="btn btn--primary">Take the survey</a>
