@@ -1,0 +1,11 @@
+﻿title: Project Title Placeholder
+name: Project Team Placeholder
+description: Replace with your project overview.
+url:
+baseurl:
+permalink: pretty
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes@4.27.3
+minimal_mistakes_skin: default
+plugins:
+  - jekyll-include-cache
