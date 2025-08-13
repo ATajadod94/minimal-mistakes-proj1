@@ -22,11 +22,11 @@ body {
   max-width: 100%;
 }
 
-// Header and Navigation - Fixed Layout
+// Header and Navigation - Fixed Layout with FORCEFUL overrides
 .masthead {
-  background: $berkeley-blue;
-  border-bottom: 3px solid $california-gold;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  background: $berkeley-blue !important;
+  border-bottom: 3px solid $california-gold !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
   
   .masthead__inner-wrap {
     max-width: 1200px;
@@ -39,22 +39,22 @@ body {
   }
   
   .greedy-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; // Use space-between for proper distribution
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
     min-height: 60px;
     
     .site-title {
       color: white !important;
-      font-weight: bold;
-      font-size: 1.1em; // Slightly smaller to make room for navigation
-      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-      margin: 0;
-      padding: 0;
-      display: block;
-      text-decoration: none !important; // Force remove any underlines
-      border-bottom: none !important; // Remove any bottom borders
-      flex-shrink: 1; // Allow title to shrink if needed
+      font-weight: bold !important;
+      font-size: 1.1em !important;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      display: block !important;
+      text-decoration: none !important;
+      border-bottom: none !important;
+      flex-shrink: 1 !important;
       
       &:hover {
         color: $california-gold !important;
@@ -64,38 +64,38 @@ body {
     }
     
     .visible-links {
-      display: flex;
-      align-items: center;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      flex-shrink: 0; // Don't shrink navigation
+      display: flex !important;
+      align-items: center !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      list-style: none !important;
+      flex-shrink: 0 !important;
       
       li {
-        margin: 0;
-        padding: 0;
+        margin: 0 !important;
+        padding: 0 !important;
         
         a {
           color: white !important;
-          font-weight: 700; // Make text very bold
-          text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); // Very strong shadow
-          padding: 6px 12px; // Slightly smaller padding to fit more items
-          border-radius: 4px;
-          transition: all 0.3s ease;
-          text-decoration: none;
-          display: block;
-          background-color: rgba(0, 0, 0, 0.9) !important; // Almost black background for maximum contrast
-          border: 2px solid rgba(255, 255, 255, 0.4) !important; // More visible white border
-          margin: 0 2px; // Smaller margin to fit more items
-          font-size: 0.9em; // Slightly smaller font to fit more items
-          white-space: nowrap; // Prevent text wrapping
+          font-weight: 700 !important;
+          text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8) !important;
+          padding: 6px 12px !important;
+          border-radius: 4px !important;
+          transition: all 0.3s ease !important;
+          text-decoration: none !important;
+          display: block !important;
+          background-color: #000000 !important; // Pure black background
+          border: 2px solid #ffffff !important; // Pure white border
+          margin: 0 2px !important;
+          font-size: 0.9em !important;
+          white-space: nowrap !important;
           
           &:hover {
             color: $california-gold !important;
-            background-color: rgba(0, 0, 0, 1) !important; // Pure black on hover
-            transform: translateY(-1px);
+            background-color: #000000 !important; // Pure black on hover
+            transform: translateY(-1px) !important;
             border-color: $california-gold !important;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
           }
         }
       }
@@ -137,6 +137,19 @@ body {
   }
 }
 
+// Force override any theme defaults for navigation
+.masthead .greedy-nav .visible-links li a {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+}
+
+.masthead .greedy-nav .visible-links li a:hover {
+  background-color: #000000 !important;
+  color: $california-gold !important;
+  border-color: $california-gold !important;
+}
+
 // Responsive design for mobile
 @media (max-width: 768px) {
   .masthead {
@@ -166,8 +179,8 @@ body {
   font-weight: bold;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   text-align: center;
-  text-decoration: none !important; // Remove any underlines
-  border-bottom: 3px solid $california-gold !important; // Only this underline
+  text-decoration: none !important;
+  border-bottom: 3px solid $california-gold !important;
   
   &::after {
     content: '';
