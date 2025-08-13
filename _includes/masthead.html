@@ -3,11 +3,10 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <a class="site-logo" href="{{ '/' | relative_url }}">
-          <img src="https://brand.berkeley.edu/wp-content/uploads/2016/10/ucbseal_139_540.png" alt="{{ site.title }}" width="45" height="45">
+          <img src="https://brand.berkeley.edu/wp-content/uploads/2016/10/ucbseal_139_540.png" alt="{{ site.title }}" width="40" height="40">
         </a>
         <a class="site-title" href="{{ '/' | relative_url }}">
           {{ site.title }}
-          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
