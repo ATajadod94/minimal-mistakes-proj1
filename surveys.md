@@ -10,40 +10,87 @@ We are actively seeking input from researchers, industry practitioners, and orga
 
 ## Current Research Activities
 
-### Survey: Agentic AI in Industry
-We're conducting a comprehensive survey to understand the current state and challenges of agentic AI deployment in industry settings.
+<div class="survey-section">
+<div class="survey-card">
+<h3><i class="fas fa-clipboard-list"></i> Survey: Agentic AI in Industry</h3>
 
-**What we're looking for:**
-- Your experience with agentic AI systems
-- Technical challenges you've encountered
-- Industry use cases and applications
-- Barriers to adoption and deployment
+<div class="survey-info">
+<div class="time-badge">
+<i class="fas fa-clock"></i>
+<span><strong>Quick Survey:</strong> Only 5 minutes to complete</span>
+</div>
 
-<a href="https://berkeley.qualtrics.com/jfe/form/SV_a8GbSp0tAu1cVdc" class="btn btn--primary">Take the Survey</a>
+<p>We're conducting a comprehensive survey to understand the current state and challenges of agentic AI deployment in industry settings.</p>
 
-### Expert Interviews
-We're scheduling in-depth discussions with practitioners and researchers to dive deeper into specific challenges and opportunities.
+<div class="survey-details">
+<h4>What we're looking for:</h4>
+<ul>
+<li>Your experience with agentic AI systems</li>
+<li>Technical challenges you've encountered</li>
+<li>Industry use cases and applications</li>
+<li>Barriers to adoption and deployment</li>
+</ul>
+</div>
 
-**Topics include:**
-- System architecture and design decisions
-- Performance evaluation and benchmarking
-- Integration challenges with existing infrastructure
-- Ethical considerations and governance
+<div class="survey-cta">
+<p class="survey-note"><em>After the initial 5-minute survey, you can choose to participate in a longer, more detailed follow-up if you're interested.</em></p>
+<a href="https://berkeley.qualtrics.com/jfe/form/SV_a8GbSp0tAu1cVdc" class="btn btn--primary" target="_blank">
+<i class="fas fa-play"></i> Start 5-Minute Survey
+</a>
+</div>
+</div>
+</div>
 
-<a href="mailto:research@example.com" class="btn btn--success">Schedule an Interview</a>
+<div class="interview-section">
+<h3><i class="fas fa-microphone"></i> Expert Interviews</h3>
+<p>We're scheduling in-depth discussions with practitioners and researchers to dive deeper into specific challenges and opportunities.</p>
 
-## Ways to Participate
+<div class="interview-details">
+<h4>Topics include:</h4>
+<ul>
+<li>System architecture and design decisions</li>
+<li>Performance evaluation and benchmarking</li>
+<li>Integration challenges with existing infrastructure</li>
+<li>Ethical considerations and governance</li>
+</ul>
+</div>
 
-- Share and promote your repositories, publications, blogs, etc.
-- Anonymously answer high-level questions from your experience with Agentic AI systems
-- Sign-up for an in-depth discussion of your use-cases and challenges you would like to solve
+<a href="mailto:research@example.com" class="btn btn--success">
+<i class="fas fa-calendar"></i> Schedule an Interview
+</a>
+</div>
+</div>
 
-<a href="mailto:research@example.com" class="btn btn--primary">Contact Us</a>
+<div class="participation-methods">
+<h3>Other Ways to Participate</h3>
 
-## Questions or Comments
+<div class="method-grid">
+<div class="method-card">
+<i class="fas fa-share-alt"></i>
+<h4>Share Your Work</h4>
+<p>Share and promote your repositories, publications, blogs, etc.</p>
+</div>
 
-<a href="mailto:research@example.com" class="btn btn--success">Get in Touch</a>
+<div class="method-card">
+<i class="fas fa-comments"></i>
+<h4>Share Your Experience</h4>
+<p>Anonymously answer high-level questions from your experience with Agentic AI systems</p>
+</div>
 
----
+<div class="method-card">
+<i class="fas fa-handshake"></i>
+<h4>Deep Dive Discussion</h4>
+<p>Sign-up for an in-depth discussion of your use-cases and challenges you would like to solve</p>
+</div>
+</div>
 
-*Your participation is crucial to advancing the field of agentic AI. Together, we can build more useful and practical systems for real-world applications.*
+<div class="contact-section">
+<a href="mailto:research@example.com" class="btn btn--primary">
+<i class="fas fa-envelope"></i> Contact Us
+</a>
+</div>
+</div>
+
+<div class="footer-note">
+<p><em>Your participation is crucial to advancing the field of agentic AI. Together, we can build more useful and practical systems for real-world applications.</em></p>
+</div>
