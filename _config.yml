@@ -20,3 +20,6 @@ author:
     - label: "UC Berkeley"
       icon: "fas fa-university"
       url: "https://berkeley.edu"
+
+# Site subtitle for header
+site_subtitle: "UC Berkeley • Stanford • IBM Research • Intesa Sanpaolo • UIUC"
