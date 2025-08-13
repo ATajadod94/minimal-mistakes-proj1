@@ -180,6 +180,22 @@ body {
   }
 }
 
+// Remove any extra underlines from the main title
+h1.page__title {
+  text-decoration: none !important;
+  border-bottom: 3px solid $california-gold !important;
+  
+  &::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: $california-gold;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+}
+
 // Buttons
 .btn--primary {
   background-color: $berkeley-blue !important;
