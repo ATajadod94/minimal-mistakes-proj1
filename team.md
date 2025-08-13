@@ -4,7 +4,7 @@ layout: single
 permalink: /team/
 ---
 
-## Our Research Team
+## Meet Our Collaborators
 
 <div class="team-intro">
 <p class="team-stats">20 researchers spanning 5 institutions and counting…</p>
@@ -131,5 +131,9 @@ permalink: /team/
 <div class="cta-buttons">
 <a href="/surveys/" class="btn btn--primary">Participate in Research</a>
 <a href="/about/" class="btn btn--success">Learn More About Our Research</a>
+</div>
+
+<div class="contact-info">
+<p><strong>Questions or Comments?</strong> Contact us at <a href="mailto:negara@berkeley.edu">negara@berkeley.edu</a></p>
 </div>
 </div>

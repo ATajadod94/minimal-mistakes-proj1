@@ -181,6 +181,30 @@ $california-gold: #FDB515;
   }
 }
 
+.contact-info {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: rgba(255,255,255,0.1);
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.2);
+  
+  p {
+    margin: 0;
+    color: white;
+    
+    a {
+      color: $california-gold;
+      text-decoration: none;
+      font-weight: 500;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
 // Survey page styling
 .survey-section {
   margin-bottom: 3rem;

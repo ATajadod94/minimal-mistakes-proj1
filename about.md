@@ -20,7 +20,7 @@ From this study, we hope to steer our own and the field's research toward solvin
 
 ## Questions or Comments
 
-<a href="mailto:research@example.com" class="btn btn--success">Contact Us</a>
+<a href="mailto:negara@berkeley.edu" class="btn btn--success">Contact Us</a>
 
 ## Our Research Team
 
