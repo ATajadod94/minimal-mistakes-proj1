@@ -10,7 +10,9 @@ $california-gold-light: #ffd54f;
 // Custom Berkeley Theme Styles
 body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align: left; // Ensure proper text alignment
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 // Fix page alignment and centering
@@ -20,31 +22,27 @@ body {
   max-width: 100%;
 }
 
-// Header and Navigation - Centered Professional Layout
+// Header and Navigation - Fixed Layout
 .masthead {
   background: $berkeley-blue;
   border-bottom: 3px solid $california-gold;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  text-align: center; // Center the header content
   
   .masthead__inner-wrap {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    text-align: center; // Center the inner content
   }
   
   .masthead__menu {
     padding: 0;
-    text-align: center; // Center the menu
   }
   
   .greedy-nav {
     display: flex;
     align-items: center;
-    justify-content: center; // Center everything
+    justify-content: space-between; // Use space-between for proper distribution
     min-height: 60px;
-    text-align: center; // Center text
     
     .site-title {
       color: white !important;
@@ -54,23 +52,22 @@ body {
       margin: 0;
       padding: 0;
       display: block;
-      text-align: center; // Center the title
-      text-decoration: none; // Remove any underlines
+      text-decoration: none !important; // Force remove any underlines
+      border-bottom: none !important; // Remove any bottom borders
       
       &:hover {
         color: $california-gold !important;
-        text-decoration: none;
+        text-decoration: none !important;
+        border-bottom: none !important;
       }
     }
     
     .visible-links {
       display: flex;
       align-items: center;
-      justify-content: center; // Center the navigation
       margin: 0;
       padding: 0;
       list-style: none;
-      text-align: center; // Center the links
       
       li {
         margin: 0;
@@ -78,19 +75,21 @@ body {
         
         a {
           color: white !important;
-          font-weight: 600; // Make text bolder for better readability
-          text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); // Stronger shadow
+          font-weight: 700; // Make text very bold
+          text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); // Very strong shadow
           padding: 8px 16px;
           border-radius: 4px;
           transition: all 0.3s ease;
           text-decoration: none;
           display: block;
-          background-color: rgba(255, 255, 255, 0.1); // Light background for better contrast
+          background-color: rgba(0, 0, 0, 0.3); // Darker background for better contrast
+          border: 1px solid rgba(255, 255, 255, 0.2); // Add subtle border
           
           &:hover {
             color: $california-gold !important;
-            background-color: rgba(255, 255, 255, 0.2); // Darker background on hover
+            background-color: rgba(0, 0, 0, 0.5); // Even darker on hover
             transform: translateY(-1px);
+            border-color: rgba(255, 255, 255, 0.4);
           }
         }
       }
@@ -160,7 +159,9 @@ body {
   font-size: 2.2em;
   font-weight: bold;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  text-align: center; // Center the page title
+  text-align: center;
+  text-decoration: none !important; // Remove any underlines
+  border-bottom: 3px solid $california-gold !important; // Only this underline
   
   &::after {
     content: '';
@@ -168,7 +169,7 @@ body {
     width: 60px;
     height: 4px;
     background: $california-gold;
-    margin: 10px auto 0; // Center the underline
+    margin: 10px auto 0;
     border-radius: 2px;
   }
 }
