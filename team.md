@@ -20,13 +20,14 @@ From this study, we hope to steer our own and the field's research toward solvin
 
 ## Questions or Comments
 
-<a href="#" class="btn btn--primary">Contact Us</a>
+<a href="#" class="btn btn--success">Contact Us</a>
 
 ## People
 
 20 researchers spanning 5 institutions and counting…
 
-### Berkeley
+<div class="institution-section">
+<h3>Berkeley</h3>
 
 **Berkeley Faculty**
 - Joseph Gonzalez
@@ -46,31 +47,40 @@ From this study, we hope to steer our own and the field's research toward solvin
 - Melissa Pan
 - Tianneng Shi
 - Alexander Xiong
+</div>
 
-### Stanford, Mithril
+<div class="institution-section">
+<h3>Stanford, Mithril</h3>
 
 **Student, CEO & Founder**
 - Jared Quincy Davis
+</div>
 
-### IBM Research
+<div class="institution-section">
+<h3>IBM Research</h3>
 
 **Researchers**
 - Diana Arroyo
 - Paul Castro
 - Marquita Ellis
+</div>
 
-### Intesa Sanpaolo
+<div class="institution-section">
+<h3>Intesa Sanpaolo</h3>
 
 **Visiting Scholars**
 - Alessandro Basile
 - Riccardo Cogo
 - Emmanuele Lacavalla
 - Shuyi Yang
+</div>
 
-### UIUC
+<div class="institution-section">
+<h3>UIUC</h3>
 
 **Faculty**
 - Daniel Kang
 
 **Student**
 - Yuxuan Zhu
+</div>

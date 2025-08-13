@@ -1,0 +1,180 @@
+---
+---
+
+// Berkeley Colors
+$berkeley-blue: #003262;
+$california-gold: #FDB515;
+$berkeley-blue-light: #1a4b7a;
+$california-gold-light: #ffd54f;
+
+// Custom Berkeley Theme Styles
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+// Header and Navigation
+.masthead {
+  background: linear-gradient(135deg, $berkeley-blue 0%, $berkeley-blue-light 100%);
+  border-bottom: 3px solid $california-gold;
+  
+  .masthead__menu-item {
+    color: white !important;
+    
+    &:hover {
+      color: $california-gold !important;
+    }
+  }
+  
+  .greedy-nav {
+    .site-title {
+      color: white !important;
+      font-weight: bold;
+    }
+    
+    .site-logo {
+      border: 2px solid $california-gold;
+      border-radius: 50%;
+    }
+  }
+}
+
+// Buttons
+.btn--primary {
+  background-color: $berkeley-blue !important;
+  border-color: $berkeley-blue !important;
+  color: white !important;
+  
+  &:hover {
+    background-color: $berkeley-blue-light !important;
+    border-color: $berkeley-blue-light !important;
+  }
+}
+
+.btn--success {
+  background-color: $california-gold !important;
+  border-color: $california-gold !important;
+  color: $berkeley-blue !important;
+  font-weight: bold;
+  
+  &:hover {
+    background-color: $california-gold-light !important;
+    border-color: $california-gold-light !important;
+  }
+}
+
+// Page Headers
+.page__title {
+  color: $berkeley-blue !important;
+  border-bottom: 2px solid $california-gold;
+  padding-bottom: 10px;
+}
+
+// Links
+a {
+  color: $berkeley-blue;
+  
+  &:hover {
+    color: $berkeley-blue-light;
+  }
+}
+
+// Sidebar
+.sidebar {
+  .author__avatar {
+    border: 3px solid $california-gold;
+  }
+  
+  .author__name {
+    color: $berkeley-blue;
+    font-weight: bold;
+  }
+  
+  .author__bio {
+    color: $berkeley-blue-light;
+  }
+}
+
+// Footer
+.page__footer {
+  background-color: $berkeley-blue;
+  color: white;
+  border-top: 3px solid $california-gold;
+  
+  .page__footer-copyright {
+    color: white;
+  }
+  
+  a {
+    color: $california-gold;
+    
+    &:hover {
+      color: $california-gold-light;
+    }
+  }
+}
+
+// Team page specific styles
+.team-member {
+  border-left: 4px solid $california-gold;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  
+  h3 {
+    color: $berkeley-blue;
+    margin-bottom: 5px;
+  }
+  
+  .institution {
+    color: $berkeley-blue-light;
+    font-style: italic;
+  }
+}
+
+// Institution sections
+.institution-section {
+  background: linear-gradient(90deg, rgba(0, 50, 98, 0.05) 0%, rgba(0, 50, 98, 0.02) 100%);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  border-left: 4px solid $california-gold;
+  
+  h3 {
+    color: $berkeley-blue;
+    border-bottom: 2px solid $california-gold;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+}
+
+// Research areas
+.research-areas {
+  background: linear-gradient(135deg, rgba(253, 181, 21, 0.1) 0%, rgba(253, 181, 21, 0.05) 100%);
+  padding: 25px;
+  border-radius: 10px;
+  border: 2px solid $california-gold;
+  margin: 20px 0;
+  
+  h3 {
+    color: $berkeley-blue;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    
+    li {
+      background: white;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 5px;
+      border-left: 4px solid $berkeley-blue;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      
+      strong {
+        color: $berkeley-blue;
+      }
+    }
+  }
+}

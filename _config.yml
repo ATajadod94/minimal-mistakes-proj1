@@ -6,6 +6,17 @@ baseurl:
 permalink: pretty
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.27.3
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
 plugins:
   - jekyll-include-cache
+
+# Berkeley theme customizations
+author:
+  name: "UC Berkeley Research Team"
+  avatar: "https://brand.berkeley.edu/wp-content/uploads/2016/10/ucbseal_139_540.png"
+  bio: "Agentic AI Research Collaboration"
+  location: "Berkeley, CA"
+  links:
+    - label: "UC Berkeley"
+      icon: "fas fa-university"
+      url: "https://berkeley.edu"
