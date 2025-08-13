@@ -82,14 +82,16 @@ body {
           transition: all 0.3s ease;
           text-decoration: none;
           display: block;
-          background-color: rgba(0, 0, 0, 0.3); // Darker background for better contrast
-          border: 1px solid rgba(255, 255, 255, 0.2); // Add subtle border
+          background-color: rgba(0, 0, 0, 0.6); // Much darker background for better contrast
+          border: 1px solid rgba(255, 255, 255, 0.3); // More visible border
+          margin: 0 4px; // Add some spacing between nav items
           
           &:hover {
             color: $california-gold !important;
-            background-color: rgba(0, 0, 0, 0.5); // Even darker on hover
+            background-color: rgba(0, 0, 0, 0.8); // Even darker on hover
             transform: translateY(-1px);
-            border-color: rgba(255, 255, 255, 0.4);
+            border-color: $california-gold;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
           }
         }
       }
