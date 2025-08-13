@@ -4,21 +4,86 @@ layout: single
 classes: wide
 ---
 
-## Welcome to Our Research Collaboration
-
-In a collaboration of over 20 researchers across UC Berkeley, Intesa Sanpaolo, IBM Research, the University of Illinois at Urbana-Champaign, and Stanford, our mission is to broadly understand the key technical challenges for industry-grade agentic AI systems and to build bridges between academic innovation with industry realities and the AI and Systems research communities.
-
-From this study, we hope to steer our own and the field's research toward solving the most impactful industry problems versus purely academic problems for building and running agentic AI systems, initially through papers and blogs synthesizing our findings.
-
-<div class="research-areas">
-<h3>Key Research Areas</h3>
-<ul>
-<li><strong>Industry-Grade Agentic AI Systems</strong> - Understanding technical challenges for real-world deployment</li>
-<li><strong>Academic-Industry Bridge</strong> - Connecting research innovation with practical applications</li>
-<li><strong>Cross-Institutional Collaboration</strong> - Leveraging expertise across 5 major institutions</li>
-<li><strong>Impact-Driven Research</strong> - Focusing on solving the most impactful industry problems</li>
-</ul>
+<div class="hero-section">
+<div class="hero-content">
+<div class="hero-logo">
+<img src="https://brand.berkeley.edu/wp-content/uploads/2016/10/ucbseal_139_540.png" alt="UC Berkeley Seal" class="berkeley-logo">
+</div>
+<div class="hero-text">
+<h1>Toward Useful Systems for Useful Agentic AI</h1>
+<p class="hero-subtitle">A collaborative research initiative across leading institutions</p>
+</div>
+</div>
 </div>
 
-<a href="/team/" class="btn btn--primary">Meet Our Team</a>
-<a href="/surveys/" class="btn btn--success">Participate in Research</a>
+<div class="intro-section">
+<div class="institution-logos">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Stanford_University_logo.svg/1200px-Stanford_University_logo.svg.png" alt="Stanford University" class="institution-logo">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1200px-IBM_logo.svg.png" alt="IBM Research" class="institution-logo">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/University_of_Illinois_at_Urbana%E2%80%93Champaign_logo.svg/1200px-University_of_Illinois_at_Urbana%E2%80%93Champaign_logo.svg.png" alt="UIUC" class="institution-logo">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Intesa_Sanpaolo_logo.svg/1200px-Intesa_Sanpaolo_logo.svg.png" alt="Intesa Sanpaolo" class="institution-logo">
+</div>
+
+<div class="mission-statement">
+<h2>Our Mission</h2>
+<p>In a collaboration of over 20 researchers across UC Berkeley, Intesa Sanpaolo, IBM Research, the University of Illinois at Urbana-Champaign, and Stanford, our mission is to broadly understand the key technical challenges for industry-grade agentic AI systems and to build bridges between academic innovation with industry realities and the AI and Systems research communities.</p>
+
+<p>From this study, we hope to steer our own and the field's research toward solving the most impactful industry problems versus purely academic problems for building and running agentic AI systems, initially through papers and blogs synthesizing our findings.</p>
+</div>
+</div>
+
+<div class="research-areas-section">
+<div class="section-header">
+<h2>Key Research Areas</h2>
+<p>Our interdisciplinary approach focuses on critical challenges in agentic AI</p>
+</div>
+
+<div class="research-grid">
+<div class="research-card">
+<div class="research-icon">
+<i class="fas fa-industry"></i>
+</div>
+<h3>Industry-Grade Agentic AI Systems</h3>
+<p>Understanding technical challenges for real-world deployment and scaling</p>
+</div>
+
+<div class="research-card">
+<div class="research-icon">
+<i class="fas fa-bridge"></i>
+</div>
+<h3>Academic-Industry Bridge</h3>
+<p>Connecting research innovation with practical applications and industry needs</p>
+</div>
+
+<div class="research-card">
+<div class="research-icon">
+<i class="fas fa-handshake"></i>
+</div>
+<h3>Cross-Institutional Collaboration</h3>
+<p>Leveraging expertise across 5 major institutions for comprehensive solutions</p>
+</div>
+
+<div class="research-card">
+<div class="research-icon">
+<i class="fas fa-bullseye"></i>
+</div>
+<h3>Impact-Driven Research</h3>
+<p>Focusing on solving the most impactful industry problems with measurable outcomes</p>
+</div>
+</div>
+</div>
+
+<div class="cta-section">
+<div class="cta-content">
+<h2>Join Our Research Initiative</h2>
+<p>Help us advance the field of agentic AI through collaboration and participation</p>
+<div class="cta-buttons">
+<a href="/team/" class="btn btn--primary">
+<i class="fas fa-users"></i> Meet Our Team
+</a>
+<a href="/surveys/" class="btn btn--success">
+<i class="fas fa-clipboard-list"></i> Participate in Research
+</a>
+</div>
+</div>
+</div>
