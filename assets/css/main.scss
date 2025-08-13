@@ -1,0 +1,35 @@
+---
+---
+
+@import "minimal-mistakes";
+
+// Berkeley Colors
+$berkeley-blue: #003262;
+$california-gold: #FDB515;
+
+// Custom Berkeley overrides
+.masthead {
+  background: $berkeley-blue !important;
+  border-bottom: 3px solid $california-gold !important;
+}
+
+.page__title {
+  color: $berkeley-blue !important;
+  border-bottom: 3px solid $california-gold !important;
+}
+
+.btn--primary {
+  background-color: $berkeley-blue !important;
+  border-color: $berkeley-blue !important;
+}
+
+.btn--success {
+  background-color: $california-gold !important;
+  border-color: $california-gold !important;
+  color: $berkeley-blue !important;
+}
+
+.page__footer {
+  background: $berkeley-blue !important;
+  border-top: 3px solid $california-gold !important;
+}

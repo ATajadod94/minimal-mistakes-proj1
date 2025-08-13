@@ -1,16 +1,22 @@
 ﻿title: "Toward Useful Systems for Useful Agentic AI"
 name: "Agentic AI Research Collaboration"
 description: "A collaboration of over 20 researchers across UC Berkeley, Intesa Sanpaolo, IBM Research, UIUC, and Stanford working on industry-grade agentic AI systems."
-url:
-baseurl:
+url: "https://atajadod94.github.io"
+baseurl: "/minimal-mistakes-proj1"
 permalink: pretty
 markdown: kramdown
+
+# Remote theme setup (GitHub Pages compatible)
 remote_theme: mmistakes/minimal-mistakes@4.27.3
+
+# Theme skin
 minimal_mistakes_skin: air
+
+# Plugins
 plugins:
   - jekyll-include-cache
 
-# Berkeley theme customizations
+# Site author
 author:
   name: "UC Berkeley Research Team"
   avatar: "https://brand.berkeley.edu/wp-content/uploads/2016/10/ucbseal_139_540.png"
