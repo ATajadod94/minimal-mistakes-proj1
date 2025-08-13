@@ -19,7 +19,7 @@ We're conducting a comprehensive survey to understand the current state and chal
 - Industry use cases and applications
 - Barriers to adoption and deployment
 
-<a href="https://example.com/survey" class="btn btn--primary">Take the Survey</a>
+<a href="https://berkeley.qualtrics.com/jfe/form/SV_a8GbSp0tAu1cVdc" class="btn btn--primary">Take the Survey</a>
 
 ### Expert Interviews
 We're scheduling in-depth discussions with practitioners and researchers to dive deeper into specific challenges and opportunities.
@@ -32,22 +32,17 @@ We're scheduling in-depth discussions with practitioners and researchers to dive
 
 <a href="mailto:research@example.com" class="btn btn--success">Schedule an Interview</a>
 
-## Share Your Work
+## Ways to Participate
 
-We're also collecting information about existing research, tools, and implementations in the agentic AI space:
+- Share and promote your repositories, publications, blogs, etc.
+- Anonymously answer high-level questions from your experience with Agentic AI systems
+- Sign-up for an in-depth discussion of your use-cases and challenges you would like to solve
 
-- **Publications and Papers** - Share your research findings
-- **Open Source Tools** - Highlight your implementations
-- **Case Studies** - Document real-world deployments
-- **Benchmarks** - Contribute to evaluation frameworks
+<a href="mailto:research@example.com" class="btn btn--primary">Contact Us</a>
 
-<a href="mailto:research@example.com" class="btn btn--primary">Share Your Work</a>
+## Questions or Comments
 
-## Stay Updated
-
-Join our mailing list to receive updates about our research findings, upcoming surveys, and opportunities to collaborate.
-
-<a href="mailto:research@example.com" class="btn btn--success">Join Our Mailing List</a>
+<a href="mailto:research@example.com" class="btn btn--success">Get in Touch</a>
 
 ---
 

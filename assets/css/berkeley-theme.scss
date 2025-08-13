@@ -47,13 +47,14 @@ body {
     .site-title {
       color: white !important;
       font-weight: bold;
-      font-size: 1.3em;
+      font-size: 1.1em; // Slightly smaller to make room for navigation
       text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
       margin: 0;
       padding: 0;
       display: block;
       text-decoration: none !important; // Force remove any underlines
       border-bottom: none !important; // Remove any bottom borders
+      flex-shrink: 1; // Allow title to shrink if needed
       
       &:hover {
         color: $california-gold !important;
@@ -68,6 +69,7 @@ body {
       margin: 0;
       padding: 0;
       list-style: none;
+      flex-shrink: 0; // Don't shrink navigation
       
       li {
         margin: 0;
@@ -77,14 +79,16 @@ body {
           color: white !important;
           font-weight: 700; // Make text very bold
           text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); // Very strong shadow
-          padding: 8px 16px;
+          padding: 6px 12px; // Slightly smaller padding to fit more items
           border-radius: 4px;
           transition: all 0.3s ease;
           text-decoration: none;
           display: block;
           background-color: rgba(0, 0, 0, 0.6); // Much darker background for better contrast
           border: 1px solid rgba(255, 255, 255, 0.3); // More visible border
-          margin: 0 4px; // Add some spacing between nav items
+          margin: 0 2px; // Smaller margin to fit more items
+          font-size: 0.9em; // Slightly smaller font to fit more items
+          white-space: nowrap; // Prevent text wrapping
           
           &:hover {
             color: $california-gold !important;
@@ -146,7 +150,7 @@ body {
       }
       
       .site-title {
-        font-size: 1.1em;
+        font-size: 1em;
       }
     }
   }

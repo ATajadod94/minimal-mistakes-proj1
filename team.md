@@ -73,7 +73,7 @@ We welcome collaboration and participation from the broader research community:
 
 - Share and promote your repositories, publications, blogs, etc.
 - Anonymously answer high-level questions from your experience with Agentic AI systems
-- Sign-up for an in-depth discussion of your use-cases and challenges you would like to solve.
+- Sign-up for an in-depth discussion of your use-cases and challenges you would like to solve
 
 <a href="/surveys/" class="btn btn--primary">Participate in Research</a>
 <a href="/about/" class="btn btn--success">Learn More About Our Research</a>
