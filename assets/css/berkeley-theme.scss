@@ -12,41 +12,61 @@ body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-// Header and Navigation
+// Header and Navigation - Clean Professional Layout
 .masthead {
-  background: linear-gradient(135deg, $berkeley-blue 0%, $berkeley-blue-light 100%);
+  background: $berkeley-blue;
   border-bottom: 3px solid $california-gold;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   
-  .masthead__menu-item {
-    color: white !important;
-    font-weight: 500;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-    
-    &:hover {
-      color: $california-gold !important;
-      background-color: rgba(255, 255, 255, 0.1);
-      border-radius: 4px;
-    }
+  .masthead__inner-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .masthead__menu {
+    padding: 0;
   }
   
   .greedy-nav {
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    
+    .site-logo {
+      flex-shrink: 0;
+      margin-right: 15px;
+      
+      img {
+        width: 45px;
+        height: 45px;
+        border: 2px solid $california-gold;
+        border-radius: 50%;
+        background: white;
+        padding: 2px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+    }
+    
     .site-title {
+      flex: 1;
       color: white !important;
       font-weight: bold;
-      font-size: 1.4em;
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
+      font-size: 1.3em;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+      margin: 0;
+      padding: 0;
+      display: block;
       
       &:hover {
         color: $california-gold !important;
+        text-decoration: none;
       }
       
       .site-subtitle {
-        color: rgba(255, 255, 255, 0.9);
-        font-size: 0.75em;
+        display: block;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.7em;
         font-weight: 400;
         margin-top: 2px;
         text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -54,29 +74,86 @@ body {
       }
     }
     
-    .site-logo {
-      border: 3px solid $california-gold;
-      border-radius: 50%;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-      background: white;
-      padding: 2px;
-      margin-right: 15px;
+    .visible-links {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      
+      li {
+        margin: 0;
+        padding: 0;
+        
+        a {
+          color: white !important;
+          font-weight: 500;
+          text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+          padding: 8px 16px;
+          border-radius: 4px;
+          transition: all 0.3s ease;
+          text-decoration: none;
+          display: block;
+          
+          &:hover {
+            color: $california-gold !important;
+            background-color: rgba(255, 255, 255, 0.1);
+            transform: translateY(-1px);
+          }
+        }
+      }
     }
     
-    .visible-links {
-      a {
-        color: white !important;
-        font-weight: 500;
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-        padding: 8px 12px;
-        border-radius: 4px;
-        transition: all 0.3s ease;
+    .greedy-nav__toggle {
+      display: none;
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+      padding: 8px;
+      
+      .navicon {
+        width: 20px;
+        height: 2px;
+        background: white;
+        position: relative;
         
-        &:hover {
-          color: $california-gold !important;
-          background-color: rgba(255, 255, 255, 0.15);
-          transform: translateY(-1px);
+        &::before,
+        &::after {
+          content: '';
+          position: absolute;
+          width: 20px;
+          height: 2px;
+          background: white;
+          left: 0;
         }
+        
+        &::before {
+          top: -6px;
+        }
+        
+        &::after {
+          top: 6px;
+        }
+      }
+    }
+  }
+}
+
+// Responsive design for mobile
+@media (max-width: 768px) {
+  .masthead {
+    .greedy-nav {
+      .visible-links {
+        display: none;
+      }
+      
+      .greedy-nav__toggle {
+        display: block;
+      }
+      
+      .site-title {
+        font-size: 1.1em;
       }
     }
   }
@@ -165,7 +242,7 @@ a {
 
 // Footer
 .page__footer {
-  background: linear-gradient(135deg, $berkeley-blue 0%, $berkeley-blue-light 100%);
+  background: $berkeley-blue;
   color: white;
   border-top: 3px solid $california-gold;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
@@ -182,23 +259,6 @@ a {
     &:hover {
       color: $california-gold-light;
     }
-  }
-}
-
-// Team page specific styles
-.team-member {
-  border-left: 4px solid $california-gold;
-  padding-left: 15px;
-  margin-bottom: 10px;
-  
-  h3 {
-    color: $berkeley-blue;
-    margin-bottom: 5px;
-  }
-  
-  .institution {
-    color: $berkeley-blue-light;
-    font-style: italic;
   }
 }
 
@@ -269,29 +329,4 @@ a {
       }
     }
   }
-}
-
-// Berkeley logo and branding improvements
-.berkeley-logo {
-  display: inline-block;
-  margin-right: 15px;
-  vertical-align: middle;
-  
-  img {
-    height: 40px;
-    width: auto;
-    border-radius: 50%;
-    border: 2px solid $california-gold;
-    background: white;
-    padding: 2px;
-  }
-}
-
-// Header subtitle
-.site-subtitle {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 0.9em;
-  font-weight: 400;
-  margin-top: 5px;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
