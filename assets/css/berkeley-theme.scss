@@ -12,7 +12,7 @@ body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-// Header and Navigation - Compact Professional Layout
+// Header and Navigation - Simple Professional Layout
 .masthead {
   background: $berkeley-blue;
   border-bottom: 3px solid $california-gold;
@@ -34,39 +34,18 @@ body {
     justify-content: space-between;
     min-height: 60px;
     
-    .site-logo {
-      flex-shrink: 0;
-      margin-right: 15px;
-      
-      img {
-        width: 40px;
-        height: 40px;
-        border: 2px solid $california-gold;
-        border-radius: 50%;
-        background: white;
-        padding: 2px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-      }
-    }
-    
     .site-title {
-      flex: 0 1 auto;
       color: white !important;
       font-weight: bold;
-      font-size: 1.2em;
+      font-size: 1.3em;
       text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
       margin: 0;
       padding: 0;
       display: block;
-      white-space: nowrap;
       
       &:hover {
         color: $california-gold !important;
         text-decoration: none;
-      }
-      
-      .site-subtitle {
-        display: none; // Hide subtitle to save space
       }
     }
     
@@ -76,7 +55,6 @@ body {
       margin: 0;
       padding: 0;
       list-style: none;
-      flex-shrink: 0;
       
       li {
         margin: 0;
@@ -86,12 +64,11 @@ body {
           color: white !important;
           font-weight: 500;
           text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-          padding: 8px 12px;
+          padding: 8px 16px;
           border-radius: 4px;
           transition: all 0.3s ease;
           text-decoration: none;
           display: block;
-          white-space: nowrap;
           
           &:hover {
             color: $california-gold !important;
@@ -151,7 +128,7 @@ body {
       }
       
       .site-title {
-        font-size: 1em;
+        font-size: 1.1em;
       }
     }
   }
