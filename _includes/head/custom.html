@@ -3,3 +3,40 @@
 
 <!-- Berkeley Favicon -->
 <link rel="icon" type="image/x-icon" href="https://brand.berkeley.edu/wp-content/uploads/2016/10/ucbseal_139_540.png">
+
+<!-- INLINE CSS OVERRIDE - Force navigation and title fixes -->
+<style>
+/* Force navigation contrast - pure black backgrounds */
+.masthead .greedy-nav .visible-links li a {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+  text-decoration: none !important;
+}
+
+.masthead .greedy-nav .visible-links li a:hover {
+  background-color: #000000 !important;
+  color: #FDB515 !important;
+  border-color: #FDB515 !important;
+}
+
+/* Force remove extra underlines from title */
+.page__title,
+h1.page__title,
+.page__title h1 {
+  text-decoration: none !important;
+  border-bottom: 3px solid #FDB515 !important;
+}
+
+.page__title::after,
+h1.page__title::after,
+.page__title h1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #FDB515;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+</style>
