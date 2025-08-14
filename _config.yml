@@ -19,7 +19,7 @@ plugins:
 # Site author
 author:
   name: "UC Berkeley Research Team"
-  avatar: "https://brand.berkeley.edu/wp-content/uploads/2016/10/ucbseal_139_540.png"
+  avatar: "/assets/images/logos/uc-berkeley-seal.png"
   bio: "Agentic AI Research Collaboration"
   location: "Berkeley, CA"
   links:

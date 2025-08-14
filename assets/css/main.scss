@@ -6,8 +6,35 @@
 // Berkeley Colors
 $berkeley-blue: #003262;
 $california-gold: #FDB515;
+$berkeley-light-blue: #4a90e2;
+$text-gray: #555;
 
 // Custom Berkeley overrides
+
+// Professional page load animation
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.research-card,
+.focus-item,
+.participation-card,
+.info-card {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+// Stagger the animations for cards
+.research-grid .research-card:nth-child(1) { animation-delay: 0.1s; }
+.research-grid .research-card:nth-child(2) { animation-delay: 0.2s; }
+.research-grid .research-card:nth-child(3) { animation-delay: 0.3s; }
+.research-grid .research-card:nth-child(4) { animation-delay: 0.4s; }
 .masthead {
   background: $berkeley-blue !important;
   border-bottom: 3px solid $california-gold !important;
@@ -65,6 +92,23 @@ $california-gold: #FDB515;
 .page__footer {
   background: $berkeley-blue !important;
   border-top: 3px solid $california-gold !important;
+  
+  .page__footer-copyright {
+    color: white !important;
+    opacity: 0.9;
+  }
+  
+  .page__footer-follow {
+    .social-icons {
+      .fab {
+        color: white;
+        
+        &:hover {
+          color: $california-gold;
+        }
+      }
+    }
+  }
 }
 
 // Team page styling
@@ -861,19 +905,22 @@ $california-gold: #FDB515;
   }
   
   .hero-text {
-    text-align: left;
+    text-align: center;
     
     h1 {
       color: white;
-      margin-bottom: 0.5rem;
-      font-size: 2.2em;
+      margin-bottom: 1rem;
+      font-size: 2.5em;
+      font-weight: 700;
       text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      line-height: 1.3;
     }
     
     .hero-subtitle {
-      font-size: 1.2em;
-      opacity: 0.9;
+      font-size: 1.3em;
+      opacity: 0.95;
       margin: 0;
+      font-weight: 300;
     }
   }
 }
@@ -892,13 +939,16 @@ $california-gold: #FDB515;
     .institution-logo {
         height: 70px;
       width: auto;
-        opacity: 0.85;
-      transition: opacity 0.3s ease;
-        filter: none;
+        opacity: 0.9;
+      transition: all 0.3s ease;
+        filter: grayscale(20%);
+      border-radius: 8px;
       
       &:hover {
         opacity: 1;
-        filter: none;
+        filter: grayscale(0%);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
       }
     }
   }
@@ -915,10 +965,11 @@ $california-gold: #FDB515;
     }
     
     p {
-      font-size: 1.1em;
-      line-height: 1.6;
-      margin-bottom: 1rem;
-      color: #333;
+      font-size: 1.15em;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      color: $text-gray;
+      font-weight: 400;
     }
   }
 }
@@ -986,6 +1037,7 @@ $california-gold: #FDB515;
   
   .research-icon {
     margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
     
     i {
       font-size: 3em;
@@ -994,7 +1046,12 @@ $california-gold: #FDB515;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
+      transition: all 0.3s ease;
     }
+  }
+  
+  &:hover .research-icon {
+    transform: scale(1.1);
   }
   
   h3 {
