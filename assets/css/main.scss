@@ -13,6 +13,15 @@ $california-gold: #FDB515;
   border-bottom: 3px solid $california-gold !important;
 }
 
+// Desktop-specific refinements for homepage hero
+@media (min-width: 992px) {
+  .hero-section .hero-content {
+    gap: 2.5rem;
+  }
+  .hero-section .hero-text h1 {
+    line-height: 1.2;
+  }
+}
 .page__title {
   color: $berkeley-blue !important;
   border-bottom: 3px solid $california-gold !important;
@@ -782,8 +791,12 @@ $california-gold: #FDB515;
     flex-shrink: 0;
     
     .berkeley-logo {
-      width: 120px;
-      height: 120px;
+      width: 120px !important;
+      height: 120px !important;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      clip-path: circle(50% at 50% 50%);
+      display: block;
       border: 3px solid $california-gold;
       border-radius: 50%;
       background: white;
