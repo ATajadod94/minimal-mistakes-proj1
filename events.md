@@ -7,8 +7,8 @@ permalink: /events/
 
 <div class="events-hero">
   <div class="events-hero-content">
-    <h1><i class="fas fa-calendar-alt"></i> Upcoming Events</h1>
-    <p class="events-subtitle">Join us at conferences, workshops, and research symposiums</p>
+    <h1><i class="fas fa-calendar-alt"></i> Events & Workshops</h1>
+    <p class="events-subtitle">Our research collaboration events, workshops, and symposiums</p>
   </div>
 </div>
 
@@ -17,10 +17,10 @@ permalink: /events/
     <div class="event-header">
       <div class="event-date">
         <span class="month">Dec</span>
-        <span class="day">TBD</span>
+        <span class="day">2024</span>
       </div>
       <div class="event-status featured-badge">
-        <i class="fas fa-star"></i> Featured Event
+        <i class="fas fa-check-circle"></i> Completed
       </div>
     </div>
     <div class="event-content">
@@ -29,7 +29,7 @@ permalink: /events/
         <i class="fas fa-map-marker-alt"></i> Berkeley, CA
       </p>
       <p class="event-description">
-        Join leading researchers and industry experts for an intensive workshop on building production-ready agentic AI systems. This collaborative event brings together perspectives from academia and industry to tackle real-world challenges.
+        Our intensive workshop brought together leading researchers and industry experts to explore building production-ready agentic AI systems. This collaborative event connected perspectives from academia and industry to tackle real-world challenges.
       </p>
       <div class="event-highlights">
         <h4>Workshop Highlights:</h4>
@@ -42,10 +42,10 @@ permalink: /events/
       </div>
       <div class="event-actions">
         <a href="https://lu.ma/x16vikh7" class="btn btn--primary" target="_blank" rel="noopener">
-          <i class="fab fa-luma"></i> Register on Luma
+          <i class="fas fa-external-link-alt"></i> View Event Details
         </a>
         <a href="#contact" class="btn btn--success">
-          <i class="fas fa-envelope"></i> Get Updates
+          <i class="fas fa-envelope"></i> Stay Updated
         </a>
       </div>
     </div>
@@ -58,7 +58,7 @@ permalink: /events/
         <span class="day">2</span>
       </div>
       <div class="event-status upcoming-badge">
-        <i class="fas fa-star"></i> SOLD OUT
+        <i class="fas fa-check-circle"></i> COMPLETED
       </div>
     </div>
     <div class="event-content">
@@ -67,7 +67,7 @@ permalink: /events/
         <i class="fas fa-map-marker-alt"></i> UC Berkeley Campus, Berkeley, CA
       </p>
       <p class="event-description">
-        Building on the momentum of Berkeley RDI's popular LLM Agents MOOC series with over 23,000 registered learners, this landmark summit brings together visionary leaders from academia, pioneering entrepreneurs, experts from leading AI organizations, venture capitalists, and policymakers.
+        Building on the momentum of Berkeley RDI's popular LLM Agents MOOC series with over 23,000 registered learners, this landmark summit brought together visionary leaders from academia, pioneering entrepreneurs, experts from leading AI organizations, venture capitalists, and policymakers.
       </p>
       <div class="event-features">
         <div class="feature">
@@ -112,7 +112,7 @@ permalink: /events/
       </div>
       <h3>Stay Updated</h3>
       <p>Subscribe to our mailing list to receive notifications about upcoming events, workshops, and research symposiums.</p>
-      <a href="/minimal-mistakes-proj1/surveys/" class="btn btn--success">
+      <a href="/surveys/" class="btn btn--success">
         <i class="fas fa-envelope-open"></i> Subscribe for Updates
       </a>
     </div>
@@ -123,7 +123,7 @@ permalink: /events/
       </div>
       <h3>Speaking Opportunities</h3>
       <p>Interested in presenting your research or industry insights at our events? We welcome proposals from the community.</p>
-      <a href="/minimal-mistakes-proj1/team/" class="btn btn--primary">
+      <a href="/team/" class="btn btn--primary">
         <i class="fas fa-paper-plane"></i> Contact Organizers
       </a>
     </div>
@@ -134,7 +134,7 @@ permalink: /events/
       </div>
       <h3>Partnership & Sponsorship</h3>
       <p>Partner with us to support cutting-edge research and connect with leading minds in agentic AI systems.</p>
-      <a href="/minimal-mistakes-proj1/about/" class="btn btn--outline">
+      <a href="/about/" class="btn btn--outline">
         <i class="fas fa-users"></i> Learn About Partnership
       </a>
     </div>
@@ -170,14 +170,14 @@ permalink: /events/
         <i class="fas fa-clipboard-list"></i>
         <h4>Research Participation</h4>
         <p>Participate in our ongoing research studies and surveys</p>
-        <a href="/minimal-mistakes-proj1/surveys/" class="btn btn--success">Join Research</a>
+        <a href="/surveys/" class="btn btn--success">Join Research</a>
       </div>
       
       <div class="contact-method">
         <i class="fas fa-users"></i>
         <h4>Meet the Team</h4>
         <p>Connect with researchers from our partner institutions</p>
-        <a href="/minimal-mistakes-proj1/team/" class="btn btn--primary">View Team</a>
+        <a href="/team/" class="btn btn--primary">View Team</a>
       </div>
     </div>
   </div>

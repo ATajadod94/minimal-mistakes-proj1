@@ -33,17 +33,21 @@ $california-gold: #FDB515;
   display: none;
 }
 
-// Center the homepage container and prevent any sidebar offset
+// Center the homepage and events page container and prevent any sidebar offset
 .home.layout--single .page,
 .home.layout--single .page__inner-wrap,
-.home.layout--single .page__content {
+.home.layout--single .page__content,
+.wide.layout--single .page,
+.wide.layout--single .page__inner-wrap,
+.wide.layout--single .page__content {
   max-width: 1280px;
   margin-left: auto !important;
   margin-right: auto !important;
   float: none !important;
 }
 
-.home.layout--single .sidebar {
+.home.layout--single .sidebar,
+.wide.layout--single .sidebar {
   display: none !important;
 }
 

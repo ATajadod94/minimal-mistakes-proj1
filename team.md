@@ -129,8 +129,8 @@ permalink: /team/
 </div>
 
 <div class="cta-buttons">
-<a href="/minimal-mistakes-proj1/surveys/" class="btn btn--primary">Participate in Research</a>
-<a href="/minimal-mistakes-proj1/about/" class="btn btn--success">Learn More About Our Research</a>
+<a href="/surveys/" class="btn btn--primary">Participate in Research</a>
+<a href="/about/" class="btn btn--success">Learn More About Our Research</a>
 </div>
 
 <div class="contact-info">
