@@ -128,16 +128,7 @@ permalink: /events/
       </a>
     </div>
     
-    <div class="info-card">
-      <div class="info-icon">
-        <i class="fas fa-handshake"></i>
-      </div>
-      <h3>Partnership & Sponsorship</h3>
-      <p>Partner with us to support cutting-edge research and connect with leading minds in agentic AI systems.</p>
-      <a href="/about/" class="btn btn--outline">
-        <i class="fas fa-users"></i> Learn About Partnership
-      </a>
-    </div>
+
   </div>
 </div>
 
