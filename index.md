@@ -78,13 +78,13 @@ classes: home wide no-title
 <h2>Join Our Research Initiative</h2>
 <p>Help us advance the field of agentic AI through collaboration and participation</p>
 <div class="cta-buttons">
-<a href="/team/" class="btn btn--primary">
+<a href="/minimal-mistakes-proj1/team/" class="btn btn--primary">
 <i class="fas fa-users"></i> Meet Our Team
 </a>
-<a href="/events/" class="btn btn--success">
+<a href="/minimal-mistakes-proj1/events/" class="btn btn--success">
 <i class="fas fa-calendar-alt"></i> Upcoming Events
 </a>
-<a href="/surveys/" class="btn btn--outline">
+<a href="/minimal-mistakes-proj1/surveys/" class="btn btn--outline">
 <i class="fas fa-clipboard-list"></i> Participate in Research
 </a>
 </div>

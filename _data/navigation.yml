@@ -1,11 +1,11 @@
 ﻿main:
   - title: Home
-    url: /
+    url: /minimal-mistakes-proj1/
   - title: About
-    url: /about/
+    url: /minimal-mistakes-proj1/about/
   - title: Team
-    url: /team/
+    url: /minimal-mistakes-proj1/team/
   - title: Events
-    url: /events/
+    url: /minimal-mistakes-proj1/events/
   - title: Surveys
-    url: /surveys/
+    url: /minimal-mistakes-proj1/surveys/

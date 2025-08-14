@@ -54,41 +54,50 @@ permalink: /events/
   <div class="event-card">
     <div class="event-header">
       <div class="event-date">
-        <span class="month">TBD</span>
-        <span class="day">2024</span>
+        <span class="month">Aug</span>
+        <span class="day">2</span>
       </div>
       <div class="event-status upcoming-badge">
-        <i class="fas fa-clock"></i> Coming Soon
+        <i class="fas fa-star"></i> SOLD OUT
       </div>
     </div>
     <div class="event-content">
-      <h3>Agentic AI Summit</h3>
+      <h3>Agentic AI Summit 2025</h3>
       <p class="event-location">
-        <i class="fas fa-university"></i> UC Berkeley RDI
+        <i class="fas fa-map-marker-alt"></i> UC Berkeley Campus, Berkeley, CA
       </p>
       <p class="event-description">
-        A comprehensive summit exploring the future of agentic AI systems, featuring keynotes from industry leaders, academic researchers, and policy experts.
+        Building on the momentum of Berkeley RDI's popular LLM Agents MOOC series with over 23,000 registered learners, this landmark summit brings together visionary leaders from academia, pioneering entrepreneurs, experts from leading AI organizations, venture capitalists, and policymakers.
       </p>
       <div class="event-features">
         <div class="feature">
           <i class="fas fa-users"></i>
-          <span>100+ Attendees</span>
+          <span>1,500+ Attendees</span>
+        </div>
+        <div class="feature">
+          <i class="fas fa-video"></i>
+          <span>Live Stream</span>
         </div>
         <div class="feature">
           <i class="fas fa-microphone"></i>
-          <span>Expert Keynotes</span>
+          <span>Industry Leaders</span>
         </div>
-        <div class="feature">
-          <i class="fas fa-handshake"></i>
-          <span>Industry Partners</span>
-        </div>
+      </div>
+      <div class="event-highlights">
+        <h4>Featured Speakers Include:</h4>
+        <ul>
+          <li>Bill Dally (Chief Scientist, NVIDIA)</li>
+          <li>Ion Stoica (Co-Founder, Databricks; UC Berkeley Professor)</li>
+          <li>Dawn Song (UC Berkeley Professor; Co-Director, Berkeley RDI)</li>
+          <li>Vinod Khosla (Founding Partner, Khosla Ventures)</li>
+        </ul>
       </div>
       <div class="event-actions">
         <a href="https://rdi.berkeley.edu/events/agentic-ai-summit" class="btn btn--primary" target="_blank" rel="noopener">
-          <i class="fas fa-external-link-alt"></i> Learn More
+          <i class="fas fa-external-link-alt"></i> View Summit Details
         </a>
-        <a href="#contact" class="btn btn--outline">
-          <i class="fas fa-bell"></i> Get Notified
+        <a href="https://rdi.berkeley.edu/events/agentic-ai-summit" class="btn btn--outline" target="_blank" rel="noopener">
+          <i class="fas fa-play"></i> Watch Recordings
         </a>
       </div>
     </div>
@@ -103,7 +112,7 @@ permalink: /events/
       </div>
       <h3>Stay Updated</h3>
       <p>Subscribe to our mailing list to receive notifications about upcoming events, workshops, and research symposiums.</p>
-      <a href="/surveys/" class="btn btn--success">
+      <a href="/minimal-mistakes-proj1/surveys/" class="btn btn--success">
         <i class="fas fa-envelope-open"></i> Subscribe for Updates
       </a>
     </div>
@@ -114,7 +123,7 @@ permalink: /events/
       </div>
       <h3>Speaking Opportunities</h3>
       <p>Interested in presenting your research or industry insights at our events? We welcome proposals from the community.</p>
-      <a href="/team/" class="btn btn--primary">
+      <a href="/minimal-mistakes-proj1/team/" class="btn btn--primary">
         <i class="fas fa-paper-plane"></i> Contact Organizers
       </a>
     </div>
@@ -125,7 +134,7 @@ permalink: /events/
       </div>
       <h3>Partnership & Sponsorship</h3>
       <p>Partner with us to support cutting-edge research and connect with leading minds in agentic AI systems.</p>
-      <a href="/about/" class="btn btn--outline">
+      <a href="/minimal-mistakes-proj1/about/" class="btn btn--outline">
         <i class="fas fa-users"></i> Learn About Partnership
       </a>
     </div>
@@ -161,14 +170,14 @@ permalink: /events/
         <i class="fas fa-clipboard-list"></i>
         <h4>Research Participation</h4>
         <p>Participate in our ongoing research studies and surveys</p>
-        <a href="/surveys/" class="btn btn--success">Join Research</a>
+        <a href="/minimal-mistakes-proj1/surveys/" class="btn btn--success">Join Research</a>
       </div>
       
       <div class="contact-method">
         <i class="fas fa-users"></i>
         <h4>Meet the Team</h4>
         <p>Connect with researchers from our partner institutions</p>
-        <a href="/team/" class="btn btn--primary">View Team</a>
+        <a href="/minimal-mistakes-proj1/team/" class="btn btn--primary">View Team</a>
       </div>
     </div>
   </div>

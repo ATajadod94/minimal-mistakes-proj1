@@ -29,31 +29,31 @@ permalink: /team/
 <div class="team-category">
 <h4>Postdoctoral Researcher</h4>
 <ul class="team-list">
-<li>Negar Arabzadeh</li>
+<li><a href="https://scholar.google.com/citations?user=vVHhYUEAAAAJ" target="_blank">Negar Arabzadeh</a> - Postdoctoral Researcher, EECS</li>
 </ul>
 </div>
 
 <div class="team-category">
 <h4>Graduate Students</h4>
 <ul class="team-list">
-<li>Lakshya A Agrawal</li>
-<li>Xiaoyuan Liu</li>
-<li>Huanzhi Mao</li>
-<li>Sid Pallerla</li>
-<li>Melissa Pan</li>
-<li>Tianneng Shi</li>
-<li>Alexander Xiong</li>
+<li><a href="https://www.linkedin.com/in/lakshya-agrawal-64b4a9155/" target="_blank">Lakshya A Agrawal</a> - Graduate Student, EECS</li>
+<li><a href="https://xiaoyuan-liu.github.io/" target="_blank">Xiaoyuan Liu</a> - Graduate Student, EECS</li>
+<li><a href="https://www.linkedin.com/in/huanzhi-mao/" target="_blank">Huanzhi Mao</a> - Graduate Student, EECS</li>
+<li><a href="https://www.linkedin.com/in/sid-pallerla/" target="_blank">Sid Pallerla</a> - Graduate Student, EECS</li>
+<li><a href="https://www.linkedin.com/in/melissa-pan-b01a93154/" target="_blank">Melissa Pan</a> - Graduate Student, EECS</li>
+<li><a href="https://www.linkedin.com/in/tianneng-shi/" target="_blank">Tianneng Shi</a> - Graduate Student, EECS</li>
+<li><a href="https://www.linkedin.com/in/alexander-xiong-5a7b99192/" target="_blank">Alexander Xiong</a> - Graduate Student, EECS</li>
 </ul>
 </div>
 </div>
 
 <div class="institution-section">
-<h3><i class="fas fa-rocket"></i> Stanford & Mithril</h3>
+<h3><i class="fas fa-rocket"></i> Stanford & Foundry</h3>
 
 <div class="team-category">
 <h4>Student & CEO</h4>
 <ul class="team-list">
-<li><a href="https://www.linkedin.com/in/jared-quincy-davis/" target="_blank">Jared Quincy Davis</a> - CEO & Founder, Mithril</li>
+<li><a href="https://www.linkedin.com/in/jared-quincy-davis/" target="_blank">Jared Quincy Davis</a> - Founder/CEO, Foundry</li>
 </ul>
 </div>
 </div>
@@ -64,9 +64,9 @@ permalink: /team/
 <div class="team-category">
 <h4>Research Scientists</h4>
 <ul class="team-list">
-<li>Diana Arroyo</li>
-<li>Paul Castro</li>
-<li>Marquita Ellis</li>
+<li><a href="https://www.linkedin.com/in/diana-arroyo-37b06a7/" target="_blank">Diana Arroyo</a> - Research Scientist, IBM Research</li>
+<li><a href="https://www.linkedin.com/in/paul-castro-phd-6b6b6b2/" target="_blank">Paul Castro</a> - Research Scientist, IBM Research</li>
+<li><a href="https://www.linkedin.com/in/marquita-ellis/" target="_blank">Marquita Ellis</a> - Research Scientist, IBM Research</li>
 </ul>
 </div>
 </div>
@@ -77,10 +77,10 @@ permalink: /team/
 <div class="team-category">
 <h4>Visiting Scholars</h4>
 <ul class="team-list">
-<li>Alessandro Basile</li>
-<li>Riccardo Cogo</li>
-<li>Emmanuele Lacavalla</li>
-<li>Shuyi Yang</li>
+<li><a href="https://www.linkedin.com/in/alessandro-basile-42a95815/" target="_blank">Alessandro Basile</a> - Visiting Scholar, Intesa Sanpaolo</li>
+<li><a href="https://www.linkedin.com/in/riccardo-cogo/" target="_blank">Riccardo Cogo</a> - Visiting Scholar, Intesa Sanpaolo</li>
+<li><a href="https://www.linkedin.com/in/emmanuele-lacavalla/" target="_blank">Emmanuele Lacavalla</a> - Visiting Scholar, Intesa Sanpaolo</li>
+<li><a href="https://www.linkedin.com/in/shuyi-yang-a08b36167/" target="_blank">Shuyi Yang</a> - Visiting Scholar, Intesa Sanpaolo</li>
 </ul>
 </div>
 </div>
@@ -98,7 +98,7 @@ permalink: /team/
 <div class="team-category">
 <h4>Graduate Student</h4>
 <ul class="team-list">
-<li>Yuxuan Zhu</li>
+<li><a href="https://www.linkedin.com/in/yuxuan-zhu-uiuc/" target="_blank">Yuxuan Zhu</a> - Graduate Student, CS</li>
 </ul>
 </div>
 </div>
@@ -129,8 +129,8 @@ permalink: /team/
 </div>
 
 <div class="cta-buttons">
-<a href="/surveys/" class="btn btn--primary">Participate in Research</a>
-<a href="/about/" class="btn btn--success">Learn More About Our Research</a>
+<a href="/minimal-mistakes-proj1/surveys/" class="btn btn--primary">Participate in Research</a>
+<a href="/minimal-mistakes-proj1/about/" class="btn btn--success">Learn More About Our Research</a>
 </div>
 
 <div class="contact-info">
