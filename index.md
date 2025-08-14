@@ -1,13 +1,11 @@
-﻿---
-title: "Toward Useful Systems for Useful Agentic AI"
+﻿title: "Toward Useful Systems for Useful Agentic AI"
 layout: single
-classes: wide
----
+classes: home wide no-title
 
 <div class="hero-section">
 <div class="hero-content">
 <div class="hero-logo">
-<img src="https://brand.berkeley.edu/wp-content/uploads/2016/10/ucbseal_139_540.png" alt="UC Berkeley Seal" class="berkeley-logo">
+<img src="https://brand.berkeley.edu/wp-content/uploads/2016/10/ucbseal_139_540.png" alt="UC Berkeley Seal" class="berkeley-logo" referrerpolicy="no-referrer" loading="eager">
 </div>
 <div class="hero-text">
 <h1>Toward Useful Systems for Useful Agentic AI</h1>
@@ -18,10 +16,10 @@ classes: wide
 
 <div class="intro-section">
 <div class="institution-logos">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Stanford_University_logo.svg/1200px-Stanford_University_logo.svg.png" alt="Stanford University" class="institution-logo">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1200px-IBM_logo.svg.png" alt="IBM Research" class="institution-logo">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/University_of_Illinois_at_Urbana%E2%80%93Champaign_logo.svg/1200px-University_of_Illinois_at_Urbana%E2%80%93Champaign_logo.svg.png" alt="UIUC" class="institution-logo">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Intesa_Sanpaolo_logo.svg/1200px-Intesa_Sanpaolo_logo.svg.png" alt="Intesa Sanpaolo" class="institution-logo">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Stanford_University_logo.svg/512px-Stanford_University_logo.svg.png" alt="Stanford University" class="institution-logo" referrerpolicy="no-referrer" loading="lazy">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/512px-IBM_logo.svg.png" alt="IBM Research" class="institution-logo" referrerpolicy="no-referrer" loading="lazy">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/University_of_Illinois_at_Urbana%E2%80%93Champaign_logo.svg/512px-University_of_Illinois_at_Urbana%E2%80%93Champaign_logo.svg.png" alt="UIUC" class="institution-logo" referrerpolicy="no-referrer" loading="lazy">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Intesa_Sanpaolo_logo.svg/512px-Intesa_Sanpaolo_logo.svg.png" alt="Intesa Sanpaolo" class="institution-logo" referrerpolicy="no-referrer" loading="lazy">
 </div>
 
 <div class="mission-statement">
