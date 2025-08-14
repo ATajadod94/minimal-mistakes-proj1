@@ -84,11 +84,11 @@ classes: home wide no-title
 <a href="/events/" class="btn btn--success">
 <i class="fas fa-calendar-alt"></i> Related Events
 </a>
-<a href="/surveys/" class="btn btn--outline">
+<a href="mailto:mme@berkeley.edu?subject=Research Participation" class="btn btn--outline">
 <i class="fas fa-clipboard-list"></i> Participate in Research
 </a>
-<a href="https://github.com/search?q=agentic+ai+server" class="btn btn--primary" target="_blank" rel="noopener">
-<i class="fas fa-server"></i> AI Agent Server
+<a href="https://berkeley.qualtrics.com/jfe/form/SV_a8GbSp0tAu1cVdc" class="btn btn--primary" target="_blank" rel="noopener">
+<i class="fas fa-poll"></i> AI Agent Survey
 </a>
 </div>
 </div>
