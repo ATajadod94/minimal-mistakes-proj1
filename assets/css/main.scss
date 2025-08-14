@@ -33,6 +33,20 @@ $california-gold: #FDB515;
   display: none;
 }
 
+// Center the homepage container and prevent any sidebar offset
+.home.layout--single .page,
+.home.layout--single .page__inner-wrap,
+.home.layout--single .page__content {
+  max-width: 1280px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  float: none !important;
+}
+
+.home.layout--single .sidebar {
+  display: none !important;
+}
+
 .btn--primary {
   background-color: $berkeley-blue !important;
   border-color: $berkeley-blue !important;
@@ -780,7 +794,7 @@ $california-gold: #FDB515;
   background: linear-gradient(135deg, $berkeley-blue 0%, darken($berkeley-blue, 15%) 100%);
   color: white;
   padding: 3rem 0;
-  text-align: center;
+  text-align: left;
   margin-bottom: 3rem;
   
   .hero-content {
