@@ -12,7 +12,7 @@ permalink: /about/
 <p class="about-subtitle">Bridging academic innovation with industry realities in agentic AI</p>
 </div>
 <div class="about-hero-image">
-<img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="AI Research Collaboration" class="hero-image">
+<img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="AI Research Collaboration - team working together on artificial intelligence" class="hero-image" loading="lazy">
 </div>
 </div>
 </div>
@@ -110,7 +110,7 @@ permalink: /about/
 </div>
 </div>
 <div class="team-preview-image">
-<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Research Team Collaboration" class="team-image">
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Research Team Collaboration - diverse group collaborating on research project" class="team-image" loading="lazy">
 </div>
 </div>
 <div class="team-cta">

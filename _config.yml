@@ -29,3 +29,17 @@ author:
 
 # Site subtitle for header
 site_subtitle: "UC Berkeley • Stanford • IBM Research • Intesa Sanpaolo • UIUC"
+
+# SEO and Social
+twitter:
+  username: # Add if available
+og_image: "/assets/images/logos/uc-berkeley-seal.png"
+social:
+  type: Organization
+  name: "Agentic AI Research Collaboration"
+  links:
+    - "https://atajadod94.github.io/minimal-mistakes-proj1/"
+
+# Analytics (add if needed)
+# google_site_verification: "your-verification-code"
+# google_analytics: "your-tracking-id"

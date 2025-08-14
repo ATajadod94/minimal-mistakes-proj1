@@ -78,14 +78,14 @@ classes: home wide no-title
 <h2>Join Our Research Initiative</h2>
 <p>Help us advance the field of agentic AI through collaboration and participation</p>
 <div class="cta-buttons">
-<a href="{{ '/team/' | relative_url }}" class="btn btn--primary">
-<i class="fas fa-users"></i> Meet Our Team
+<a href="{{ '/team/' | relative_url }}" class="btn btn--primary" aria-label="Meet our research team of 20+ researchers across 5 institutions">
+<i class="fas fa-users" aria-hidden="true"></i> Meet Our Team
 </a>
 <a href="{{ '/events/' | relative_url }}" class="btn btn--success">
 <i class="fas fa-calendar-alt"></i> Related Events
 </a>
-<a href="{{ '/participate/#current-research-activities' | relative_url }}" class="btn btn--success">
-<i class="fas fa-clipboard-list"></i> Participate in Research
+<a href="{{ '/participate/#current-research-activities' | relative_url }}" class="btn btn--success" aria-label="Participate in our agentic AI research through surveys and interviews">
+<i class="fas fa-clipboard-list" aria-hidden="true"></i> Participate in Research
 </a>
 <a href="https://berkeley.qualtrics.com/jfe/form/SV_a8GbSp0tAu1cVdc" class="btn btn--primary" target="_blank" rel="noopener">
 <i class="fas fa-poll"></i> AI Agent Survey
