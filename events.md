@@ -170,7 +170,7 @@ permalink: /events/
         <i class="fas fa-clipboard-list"></i>
         <h4>Research Participation</h4>
         <p>Participate in our ongoing research studies and surveys</p>
-        <a href="/surveys/" class="btn btn--success">Join Research</a>
+        <a href="/participate/" class="btn btn--success">Join Research</a>
       </div>
       
       <div class="contact-method">

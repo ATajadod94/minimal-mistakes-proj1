@@ -2,7 +2,7 @@
 title: "Participate in Our Research"
 layout: single
 classes: wide
-permalink: /surveys/
+permalink: /participate/
 ---
 
 ## Participate in Our Research

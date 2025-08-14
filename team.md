@@ -129,7 +129,7 @@ permalink: /team/
 </div>
 
 <div class="cta-buttons">
-<a href="/surveys/" class="btn btn--primary">Participate in Research</a>
+<a href="/participate/" class="btn btn--primary">Participate in Research</a>
 <a href="/about/" class="btn btn--success">Learn More About Our Research</a>
 </div>
 

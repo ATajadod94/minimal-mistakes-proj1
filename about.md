@@ -90,7 +90,7 @@ permalink: /about/
 </div>
 
 <div class="participation-cta">
-<a href="/surveys/" class="btn btn--primary">
+<a href="/participate/" class="btn btn--primary">
 <i class="fas fa-clipboard-list"></i> Participate in Research
 </a>
 </div>

@@ -84,7 +84,7 @@ classes: home wide no-title
 <a href="/events/" class="btn btn--success">
 <i class="fas fa-calendar-alt"></i> Related Events
 </a>
-<a href="mailto:mme@berkeley.edu?subject=Research Participation" class="btn btn--outline">
+<a href="/participate/" class="btn btn--success">
 <i class="fas fa-clipboard-list"></i> Participate in Research
 </a>
 <a href="https://berkeley.qualtrics.com/jfe/form/SV_a8GbSp0tAu1cVdc" class="btn btn--primary" target="_blank" rel="noopener">
