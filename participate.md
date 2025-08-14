@@ -78,11 +78,7 @@ We are actively seeking input from researchers, industry practitioners, and orga
 <p>Anonymously answer high-level questions from your experience with Agentic AI systems</p>
 </div>
 
-<div class="method-card">
-<i class="fas fa-handshake"></i>
-<h4>Deep Dive Discussion</h4>
-<p>Sign-up for an in-depth discussion of your use-cases and challenges you would like to solve</p>
-</div>
+
 </div>
 
 <div class="contact-section">
