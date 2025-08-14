@@ -68,17 +68,9 @@ We are actively seeking input from researchers, industry practitioners, and orga
 <div class="method-grid">
 <div class="method-card">
 <i class="fas fa-share-alt"></i>
-<h4>Share Your Work</h4>
-<p>Share and promote your repositories, publications, blogs, etc.</p>
+<h4>Share Your Work & Experience</h4>
+<p>Share and promote your repositories, publications, blogs, and anonymously answer high-level questions from your experience with Agentic AI systems.</p>
 </div>
-
-<div class="method-card">
-<i class="fas fa-comments"></i>
-<h4>Share Your Experience</h4>
-<p>Anonymously answer high-level questions from your experience with Agentic AI systems</p>
-</div>
-
-
 </div>
 
 <div class="contact-section">
