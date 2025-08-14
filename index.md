@@ -18,10 +18,10 @@ classes: home wide no-title
 
 <div class="intro-section">
 <div class="institution-logos">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Stanford_University_logo.svg/512px-Stanford_University_logo.svg.png" alt="Stanford University" class="institution-logo" loading="lazy" referrerpolicy="no-referrer">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/512px-IBM_logo.svg.png" alt="IBM Research" class="institution-logo" loading="lazy" referrerpolicy="no-referrer">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/University_of_Illinois_at_Urbana%E2%80%93Champaign_logo.svg/512px-University_of_Illinois_at_Urbana%E2%80%93Champaign_logo.svg.png" alt="UIUC" class="institution-logo" loading="lazy" referrerpolicy="no-referrer">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Intesa_Sanpaolo_logo.svg/512px-Intesa_Sanpaolo_logo.svg.png" alt="Intesa Sanpaolo" class="institution-logo" loading="lazy" referrerpolicy="no-referrer">
+<img src="https://logo.clearbit.com/stanford.edu" alt="Stanford University" class="institution-logo" loading="lazy" crossorigin="anonymous">
+<img src="https://logo.clearbit.com/ibm.com" alt="IBM Research" class="institution-logo" loading="lazy" crossorigin="anonymous">
+<img src="https://logo.clearbit.com/illinois.edu" alt="UIUC" class="institution-logo" loading="lazy" crossorigin="anonymous">
+<img src="https://logo.clearbit.com/intesasanpaolo.com" alt="Intesa Sanpaolo" class="institution-logo" loading="lazy" crossorigin="anonymous">
 </div>
 
 <div class="mission-statement">
