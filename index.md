@@ -6,9 +6,6 @@ classes: home wide no-title
 
 <div class="hero-section">
 <div class="hero-content">
-<div class="hero-logo">
-<img src="{{ '/assets/images/logos/uc-berkeley-seal.png' | relative_url }}" alt="UC Berkeley Seal" class="berkeley-logo" loading="eager">
-</div>
 <div class="hero-text">
 <h1>Toward Useful Systems for Useful Agentic AI</h1>
 <p class="hero-subtitle">A collaborative research initiative across leading institutions</p>
@@ -18,17 +15,11 @@ classes: home wide no-title
 
 <div class="intro-section">
 <div class="institution-logos">
+<img src="{{ '/assets/images/logos/uc-berkeley-seal.png' | relative_url }}" alt="UC Berkeley" class="institution-logo" loading="lazy">
 <img src="https://logo.clearbit.com/stanford.edu" alt="Stanford University" class="institution-logo" loading="lazy" crossorigin="anonymous">
 <img src="https://logo.clearbit.com/ibm.com" alt="IBM Research" class="institution-logo" loading="lazy" crossorigin="anonymous">
 <img src="https://logo.clearbit.com/illinois.edu" alt="UIUC" class="institution-logo" loading="lazy" crossorigin="anonymous">
 <img src="https://logo.clearbit.com/intesasanpaolo.com" alt="Intesa Sanpaolo" class="institution-logo" loading="lazy" crossorigin="anonymous">
-</div>
-
-<div class="mission-statement">
-<h2>Our Mission</h2>
-<p>In a collaboration of over 20 researchers across UC Berkeley, Intesa Sanpaolo, IBM Research, the University of Illinois at Urbana-Champaign, and Stanford, our mission is to broadly understand the key technical challenges for industry-grade agentic AI systems and to build bridges between academic innovation with industry realities and the AI and Systems research communities.</p>
-
-<p>From this study, we hope to steer our own and the field's research toward solving the most impactful industry problems versus purely academic problems for building and running agentic AI systems, initially through papers and blogs synthesizing our findings.</p>
 </div>
 </div>
 
@@ -73,6 +64,15 @@ classes: home wide no-title
 </div>
 </div>
 
+<div class="intro-section">
+<div class="mission-statement">
+<h2>Our Mission</h2>
+<p>In a collaboration of over 20 researchers across UC Berkeley, Intesa Sanpaolo, IBM Research, the University of Illinois at Urbana-Champaign, and Stanford, our mission is to broadly understand the key technical challenges for industry-grade agentic AI systems and to build bridges between academic innovation with industry realities and the AI and Systems research communities.</p>
+
+<p>From this study, we hope to steer our own and the field's research toward solving the most impactful industry problems versus purely academic problems for building and running agentic AI systems, initially through papers and blogs synthesizing our findings.</p>
+</div>
+</div>
+
 <div class="cta-section">
 <div class="cta-content">
 <h2>Join Our Research Initiative</h2>
@@ -82,10 +82,13 @@ classes: home wide no-title
 <i class="fas fa-users"></i> Meet Our Team
 </a>
 <a href="/events/" class="btn btn--success">
-<i class="fas fa-calendar-alt"></i> Upcoming Events
+<i class="fas fa-calendar-alt"></i> Related Events
 </a>
 <a href="/surveys/" class="btn btn--outline">
 <i class="fas fa-clipboard-list"></i> Participate in Research
+</a>
+<a href="https://github.com/search?q=agentic+ai+server" class="btn btn--primary" target="_blank" rel="noopener">
+<i class="fas fa-server"></i> AI Agent Server
 </a>
 </div>
 </div>

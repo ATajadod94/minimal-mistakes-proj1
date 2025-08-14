@@ -56,7 +56,7 @@ We are actively seeking input from researchers, industry practitioners, and orga
 </ul>
 </div>
 
-<a href="mailto:negara@berkeley.edu" class="btn btn--success">
+<a href="mailto:mme@berkeley.edu" class="btn btn--success">
 <i class="fas fa-calendar"></i> Schedule an Interview
 </a>
 </div>
@@ -86,7 +86,7 @@ We are actively seeking input from researchers, industry practitioners, and orga
 </div>
 
 <div class="contact-section">
-<a href="mailto:negara@berkeley.edu" class="btn btn--primary">
+<a href="mailto:mme@berkeley.edu" class="btn btn--primary">
 <i class="fas fa-envelope"></i> Contact Us
 </a>
 </div>
