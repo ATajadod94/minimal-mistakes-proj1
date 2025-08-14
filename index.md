@@ -81,7 +81,10 @@ classes: home wide no-title
 <a href="/team/" class="btn btn--primary">
 <i class="fas fa-users"></i> Meet Our Team
 </a>
-<a href="/surveys/" class="btn btn--success">
+<a href="/events/" class="btn btn--success">
+<i class="fas fa-calendar-alt"></i> Upcoming Events
+</a>
+<a href="/surveys/" class="btn btn--outline">
 <i class="fas fa-clipboard-list"></i> Participate in Research
 </a>
 </div>

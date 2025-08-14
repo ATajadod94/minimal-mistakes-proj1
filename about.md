@@ -113,8 +113,11 @@ permalink: /about/
 </div>
 </div>
 <div class="team-cta">
-<a href="/team/" class="btn btn--success">
+<a href="/team/" class="btn btn--primary">
 <i class="fas fa-users"></i> Meet Our Team
+</a>
+<a href="/events/" class="btn btn--success">
+<i class="fas fa-calendar-alt"></i> Upcoming Events
 </a>
 </div>
 </div>
