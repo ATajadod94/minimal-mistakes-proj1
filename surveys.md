@@ -1,6 +1,7 @@
 ﻿---
 title: "Participate in Our Research"
 layout: single
+classes: wide
 permalink: /surveys/
 ---
 
