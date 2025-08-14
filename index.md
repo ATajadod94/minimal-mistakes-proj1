@@ -7,7 +7,7 @@ classes: home wide no-title
 <div class="hero-section">
 <div class="hero-content">
 <div class="hero-logo">
-<img src="https://brand.berkeley.edu/wp-content/uploads/2016/10/ucbseal_139_540.png" alt="UC Berkeley Seal" class="berkeley-logo" loading="eager">
+<img src="{{ '/assets/images/logos/uc-berkeley-seal.png' | relative_url }}" alt="UC Berkeley Seal" class="berkeley-logo" loading="eager">
 </div>
 <div class="hero-text">
 <h1>Toward Useful Systems for Useful Agentic AI</h1>
