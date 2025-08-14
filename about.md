@@ -90,7 +90,7 @@ permalink: /about/
 </div>
 
 <div class="participation-cta">
-<a href="/participate/" class="btn btn--primary">
+<a href="{{ '/participate/' | relative_url }}" class="btn btn--primary">
 <i class="fas fa-clipboard-list"></i> Participate in Research
 </a>
 </div>
@@ -114,10 +114,10 @@ permalink: /about/
 </div>
 </div>
 <div class="team-cta">
-<a href="/team/" class="btn btn--primary">
+<a href="{{ '/team/' | relative_url }}" class="btn btn--primary">
 <i class="fas fa-users"></i> Meet Our Team
 </a>
-<a href="/events/" class="btn btn--success">
+<a href="{{ '/events/' | relative_url }}" class="btn btn--success">
 <i class="fas fa-calendar-alt"></i> View Events
 </a>
 </div>

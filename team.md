@@ -129,8 +129,8 @@ permalink: /team/
 </div>
 
 <div class="cta-buttons">
-<a href="/participate/" class="btn btn--primary">Participate in Research</a>
-<a href="/about/" class="btn btn--success">Learn More About Our Research</a>
+<a href="{{ '/participate/' | relative_url }}" class="btn btn--primary">Participate in Research</a>
+<a href="{{ '/about/' | relative_url }}" class="btn btn--success">Learn More About Our Research</a>
 </div>
 
 <div class="contact-info">

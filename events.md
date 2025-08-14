@@ -161,14 +161,14 @@ permalink: /events/
         <i class="fas fa-clipboard-list"></i>
         <h4>Research Participation</h4>
         <p>Participate in our ongoing research studies and surveys</p>
-        <a href="/participate/" class="btn btn--success">Join Research</a>
+        <a href="{{ '/participate/' | relative_url }}" class="btn btn--success">Join Research</a>
       </div>
       
       <div class="contact-method">
         <i class="fas fa-users"></i>
         <h4>Meet the Team</h4>
         <p>Connect with researchers from our partner institutions</p>
-        <a href="/team/" class="btn btn--primary">View Team</a>
+        <a href="{{ '/team/' | relative_url }}" class="btn btn--primary">View Team</a>
       </div>
     </div>
   </div>
