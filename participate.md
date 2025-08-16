@@ -18,7 +18,7 @@ We are actively seeking input from researchers, industry practitioners, and orga
 <div class="survey-info">
 <div class="time-badge">
 <i class="fas fa-clock"></i>
-<span><strong>Quick Survey:</strong> As fast as 5 minutes to complete</span>
+<span><strong>Quick Survey:</strong> Just 5 minutes to complete</span>
 </div>
 
 <p>We're conducting a comprehensive survey to understand the current state and challenges of agentic AI deployment in industry settings.</p>
@@ -34,7 +34,7 @@ We are actively seeking input from researchers, industry practitioners, and orga
 </div>
 
 <div class="survey-cta">
-<p class="survey-note"><em>After the initial quick survey (typically 5-10 minutes), you can choose to participate in a longer, more detailed follow-up if you're interested.</em></p>
+<p class="survey-note"><em>After the initial quick survey (typically takes 5-10 minutes), you can choose to participate in a longer, more detailed follow-up if you're interested.</em></p>
 <a href="https://berkeley.qualtrics.com/jfe/form/SV_a8GbSp0tAu1cVdc" class="btn btn--primary" target="_blank">
 <i class="fas fa-play"></i> Start Quick Survey
 </a>
