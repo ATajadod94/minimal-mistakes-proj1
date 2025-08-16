@@ -18,7 +18,7 @@ We are actively seeking input from researchers, industry practitioners, and orga
 <div class="survey-info">
 <div class="time-badge">
 <i class="fas fa-clock"></i>
-<span><strong>Quick Survey:</strong> Just 5 minutes to complete</span>
+<span><strong>Quick Survey:</strong> Can be completed in as little as 5 minutes</span>
 </div>
 
 <p>We're conducting a comprehensive survey to understand the current state and challenges of agentic AI deployment in industry settings.</p>
