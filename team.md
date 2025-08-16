@@ -8,7 +8,7 @@ permalink: /team/
 ## Meet Our Collaborators
 
 <div class="team-intro">
-<p class="team-stats">20 researchers spanning 5 institutions and counting…</p>
+<p class="team-stats">20+ researchers spanning 5 institutions and counting…</p>
 <p>Our collaborative team brings together expertise from leading academic and industry institutions to advance the field of agentic AI systems.</p>
 </div>
 
