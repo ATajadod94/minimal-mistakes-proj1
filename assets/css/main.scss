@@ -1158,7 +1158,7 @@ $text-gray: #555;
 }
 
 .scheduling-embed {
-  margin-top: 1rem;
+  margin-bottom: 2rem;
   
   .embed-note {
     text-align: center;
@@ -1173,6 +1173,24 @@ $text-gray: #555;
     border: 1px solid #e9ecef;
     border-radius: 8px !important;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+  }
+}
+
+.external-link {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e9ecef;
+  
+  .external-note {
+    color: #777;
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-size: 0.9em;
+  }
+  
+  .btn {
+    display: inline-block;
   }
 }
 

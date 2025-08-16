@@ -56,23 +56,26 @@ We are actively seeking input from researchers, industry practitioners, and orga
 </ul>
 
 <div class="interview-info">
-<p><em>📅 Duration: 30-45 minutes | 💻 Format: Video call or phone | 🔒 All responses confidential</em></p>
+<p><em>📅 Duration: 1 hour | 💻 Format: Video call or phone | 🔒 All responses confidential</em></p>
 </div>
 </div>
 
 <div class="scheduling-options">
-<a href="https://savvycal.com/p/atajadod94/d15b38e2" class="btn btn--success" target="_blank" rel="noopener">
-<i class="fas fa-calendar-plus"></i> Book Interview Time
-</a>
-
 <div class="scheduling-embed">
-<p class="embed-note"><em>Or schedule directly below:</em></p>
+<p class="embed-note"><em>Schedule your interview directly below:</em></p>
 <iframe src="https://savvycal.com/p/atajadod94/d15b38e2" 
         width="100%" 
         height="600" 
         frameborder="0"
         style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
 </iframe>
+</div>
+
+<div class="external-link">
+<p class="external-note"><em>Prefer to open in a new window?</em></p>
+<a href="https://savvycal.com/p/atajadod94/d15b38e2" class="btn btn--outline" target="_blank" rel="noopener">
+<i class="fas fa-external-link-alt"></i> Open in New Tab
+</a>
 </div>
 </div>
 </div>
