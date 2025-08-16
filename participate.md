@@ -63,7 +63,7 @@ We are actively seeking input from researchers, industry practitioners, and orga
 <div class="scheduling-options">
 <div class="scheduling-embed">
 <p class="embed-note"><em>Schedule your interview directly below:</em></p>
-<iframe src="https://savvycal.com/p/atajadod94/d15b38e2" 
+<iframe src="https://savvycal.com/p/negara/ai-agent-survey" 
         width="100%" 
         height="600" 
         frameborder="0"
@@ -73,7 +73,7 @@ We are actively seeking input from researchers, industry practitioners, and orga
 
 <div class="external-link">
 <p class="external-note"><em>Prefer to open in a new window?</em></p>
-<a href="https://savvycal.com/p/atajadod94/d15b38e2" class="btn btn--outline" target="_blank" rel="noopener">
+<a href="https://savvycal.com/p/negara/ai-agent-survey" class="btn btn--outline" target="_blank" rel="noopener">
 <i class="fas fa-external-link-alt"></i> Open in New Tab
 </a>
 </div>
