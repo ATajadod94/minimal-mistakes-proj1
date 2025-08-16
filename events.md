@@ -16,8 +16,8 @@ permalink: /events/
   <div class="event-card featured">
     <div class="event-header">
       <div class="event-date">
-        <span class="month">Past</span>
-        <span class="day">Event</span>
+        <span class="month">Aug</span>
+        <span class="day">5</span>
       </div>
       <div class="event-status featured-badge">
         <i class="fas fa-check-circle"></i> Completed
@@ -25,6 +25,9 @@ permalink: /events/
     </div>
     <div class="event-content">
       <h3>AI Agent SF Meetup #5 - Agents in Production</h3>
+      <p class="event-date-text">
+        <i class="fas fa-calendar"></i> Tuesday, August 5, 2025
+      </p>
       <p class="event-location">
         <i class="fas fa-map-marker-alt"></i> San Francisco, CA
       </p>
