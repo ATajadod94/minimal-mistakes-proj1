@@ -35,9 +35,115 @@ $text-gray: #555;
 .research-grid .research-card:nth-child(2) { animation-delay: 0.2s; }
 .research-grid .research-card:nth-child(3) { animation-delay: 0.3s; }
 .research-grid .research-card:nth-child(4) { animation-delay: 0.4s; }
+// Sophisticated Navigation Design
 .masthead {
-  background: $berkeley-blue !important;
-  border-bottom: 3px solid $california-gold !important;
+  background: linear-gradient(135deg, rgba(0, 50, 98, 0.97) 0%, rgba(0, 40, 80, 0.98) 100%) !important;
+  backdrop-filter: blur(10px) !important;
+  border-bottom: none !important;
+  box-shadow: 0 2px 20px rgba(0, 50, 98, 0.15), 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  transition: all 0.3s ease !important;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, $california-gold 20%, $california-gold 80%, transparent 100%);
+  }
+  
+  .site-title {
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 1.2em !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+    transition: all 0.3s ease !important;
+    
+    &:hover {
+      color: $california-gold !important;
+      text-shadow: 0 0 8px rgba(253, 181, 21, 0.3) !important;
+    }
+  }
+  
+  .site-nav {
+    .visible-links {
+      .masthead__menu-item {
+        margin: 0 0.3rem !important;
+        
+        a {
+          color: rgba(255, 255, 255, 0.9) !important;
+          font-weight: 500 !important;
+          padding: 0.6rem 1.2rem !important;
+          border-radius: 6px !important;
+          transition: all 0.3s ease !important;
+          position: relative !important;
+          text-decoration: none !important;
+          font-size: 0.95em !important;
+          
+          &::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: $california-gold;
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+          }
+          
+          &:hover {
+            color: white !important;
+            background: rgba(255, 255, 255, 0.1) !important;
+            transform: translateY(-1px) !important;
+            
+            &::before {
+              width: 80%;
+            }
+          }
+          
+          &.current {
+            color: $california-gold !important;
+            background: rgba(253, 181, 21, 0.1) !important;
+            
+            &::before {
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  // Mobile menu button styling
+  .greedy-nav__toggle {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 6px !important;
+    
+    &:hover {
+      background: rgba(255, 255, 255, 0.2) !important;
+    }
+    
+    .navicon {
+      background: white !important;
+      
+      &:before,
+      &:after {
+        background: white !important;
+      }
+    }
+  }
+}
+
+// Scrolled state with enhanced shadow
+.masthead.scrolled {
+  background: linear-gradient(135deg, rgba(0, 50, 98, 0.98) 0%, rgba(0, 40, 80, 0.99) 100%) !important;
+  box-shadow: 0 4px 30px rgba(0, 50, 98, 0.25), 0 2px 6px rgba(0, 0, 0, 0.15) !important;
 }
 
 // Desktop-specific refinements for homepage hero
@@ -1125,7 +1231,19 @@ $text-gray: #555;
   }
 }
 
+// Mobile navigation enhancements
 @media (max-width: 768px) {
+  .masthead {
+    .site-title {
+      font-size: 1.1em !important;
+    }
+    
+    .site-nav .visible-links .masthead__menu-item a {
+      padding: 0.5rem 1rem !important;
+      font-size: 0.9em !important;
+    }
+  }
+  
   .hero-section {
     .hero-content {
       flex-direction: column;
