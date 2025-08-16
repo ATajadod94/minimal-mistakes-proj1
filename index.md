@@ -23,6 +23,27 @@ classes: home wide no-title
 </div>
 </div>
 
+<div class="cta-section">
+<div class="cta-content">
+<h2>Join Our Research Initiative</h2>
+<p>Help us advance the field of agentic AI through collaboration and participation</p>
+<div class="cta-buttons">
+<a href="{{ '/team/' | relative_url }}" class="btn btn--primary" aria-label="Meet our research team of 20+ researchers across 5 institutions">
+<i class="fas fa-users" aria-hidden="true"></i> Meet Our Team
+</a>
+<a href="{{ '/events/' | relative_url }}" class="btn btn--success">
+<i class="fas fa-calendar-alt"></i> Related Events
+</a>
+<a href="{{ '/participate/#current-research-activities' | relative_url }}" class="btn btn--success" aria-label="Participate in our agentic AI research through surveys and interviews">
+<i class="fas fa-clipboard-list" aria-hidden="true"></i> Participate in Research
+</a>
+<a href="https://berkeley.qualtrics.com/jfe/form/SV_a8GbSp0tAu1cVdc" class="btn btn--primary" target="_blank" rel="noopener">
+<i class="fas fa-poll"></i> AI Agent Survey
+</a>
+</div>
+</div>
+</div>
+
 <div class="research-areas-section">
 <div class="section-header">
 <h2>Key Research Areas</h2>
@@ -67,29 +88,8 @@ classes: home wide no-title
 <div class="intro-section">
 <div class="mission-statement">
 <h2>Our Mission</h2>
-<p>In a collaboration of over 20 researchers across UC Berkeley, Intesa Sanpaolo, IBM Research, the University of Illinois at Urbana-Champaign, and Stanford, our mission is to broadly understand the key technical challenges for industry-grade agentic AI systems and to build bridges between academic innovation with industry realities and the AI and Systems research communities.</p>
+<p>In a collaboration of over 20+ researchers across UC Berkeley, Intesa Sanpaolo, IBM Research, the University of Illinois at Urbana-Champaign, and Stanford, our mission is to broadly understand the key technical challenges for industry-grade agentic AI systems and to build bridges between academic innovation with industry realities and the AI and Systems research communities.</p>
 
 <p>From this study, we hope to steer our own and the field's research toward solving the most impactful industry problems versus purely academic problems for building and running agentic AI systems, initially through papers and blogs synthesizing our findings.</p>
-</div>
-</div>
-
-<div class="cta-section">
-<div class="cta-content">
-<h2>Join Our Research Initiative</h2>
-<p>Help us advance the field of agentic AI through collaboration and participation</p>
-<div class="cta-buttons">
-<a href="{{ '/team/' | relative_url }}" class="btn btn--primary" aria-label="Meet our research team of 20+ researchers across 5 institutions">
-<i class="fas fa-users" aria-hidden="true"></i> Meet Our Team
-</a>
-<a href="{{ '/events/' | relative_url }}" class="btn btn--success">
-<i class="fas fa-calendar-alt"></i> Related Events
-</a>
-<a href="{{ '/participate/#current-research-activities' | relative_url }}" class="btn btn--success" aria-label="Participate in our agentic AI research through surveys and interviews">
-<i class="fas fa-clipboard-list" aria-hidden="true"></i> Participate in Research
-</a>
-<a href="https://berkeley.qualtrics.com/jfe/form/SV_a8GbSp0tAu1cVdc" class="btn btn--primary" target="_blank" rel="noopener">
-<i class="fas fa-poll"></i> AI Agent Survey
-</a>
-</div>
 </div>
 </div>
