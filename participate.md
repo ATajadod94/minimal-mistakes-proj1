@@ -44,7 +44,7 @@ We are actively seeking input from researchers, industry practitioners, and orga
 
 <div class="interview-section">
 <h3><i class="fas fa-microphone"></i> Expert Interviews</h3>
-<p>We're scheduling in-depth discussions with practitioners and researchers to dive deeper into specific challenges and opportunities.</p>
+<p>We're scheduling in-depth discussions with practitioners and researchers to dive deeper into specific challenges and opportunities. <strong>Select your preferred time from available slots and provide your contact information.</strong></p>
 
 <div class="interview-details">
 <h4>Topics include:</h4>
@@ -54,10 +54,14 @@ We are actively seeking input from researchers, industry practitioners, and orga
 <li>Integration challenges with existing infrastructure</li>
 <li>Ethical considerations and governance</li>
 </ul>
+
+<div class="interview-info">
+<p><em>📅 Duration: 30-45 minutes | 💻 Format: Video call or phone | 🔒 All responses confidential</em></p>
+</div>
 </div>
 
-<a href="mailto:mme@berkeley.edu" class="btn btn--success">
-<i class="fas fa-calendar"></i> Schedule an Interview
+<a href="https://calendly.com/your-username/expert-interview" class="btn btn--success" target="_blank" rel="noopener">
+<i class="fas fa-calendar-plus"></i> Book Interview Time
 </a>
 </div>
 </div>
