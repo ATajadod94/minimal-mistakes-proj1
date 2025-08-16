@@ -1147,6 +1147,43 @@ $text-gray: #555;
   }
 }
 
+// SavvyCal scheduling integration styling
+.scheduling-options {
+  margin-top: 2rem;
+  
+  .btn {
+    margin-bottom: 1.5rem;
+    display: inline-block;
+  }
+}
+
+.scheduling-embed {
+  margin-top: 1rem;
+  
+  .embed-note {
+    text-align: center;
+    color: #666;
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  
+  iframe {
+    max-width: 100%;
+    min-height: 600px;
+    border: 1px solid #e9ecef;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+  }
+}
+
+// Responsive iframe for mobile
+@media (max-width: 768px) {
+  .scheduling-embed iframe {
+    height: 500px;
+    min-height: 500px;
+  }
+}
+
 // Mobile navigation enhancements
 @media (max-width: 768px) {
   .masthead {

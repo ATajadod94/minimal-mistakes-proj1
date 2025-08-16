@@ -60,9 +60,21 @@ We are actively seeking input from researchers, industry practitioners, and orga
 </div>
 </div>
 
-<a href="https://calendly.com/your-username/expert-interview" class="btn btn--success" target="_blank" rel="noopener">
+<div class="scheduling-options">
+<a href="https://savvycal.com/p/atajadod94/d15b38e2" class="btn btn--success" target="_blank" rel="noopener">
 <i class="fas fa-calendar-plus"></i> Book Interview Time
 </a>
+
+<div class="scheduling-embed">
+<p class="embed-note"><em>Or schedule directly below:</em></p>
+<iframe src="https://savvycal.com/p/atajadod94/d15b38e2" 
+        width="100%" 
+        height="600" 
+        frameborder="0"
+        style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+</iframe>
+</div>
+</div>
 </div>
 </div>
 
